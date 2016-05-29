@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	<version>1.0.0-SNAPSHOT</version>
+	
+	<organization>
+		<name>Zwide Heights</name>
+		<url>http://www.zwideheights.co.za</url>
+	</organization>
+	
+	<name>Zwide Heights</name>
+	<url>http://www.zwideheights.co.za</url>
+	<inceptionYear>2011-08-28</inceptionYear>
+	<description>WebSec(Web Security) is a library for preventing cross site scripting, SQL injection attacks and removal of non valid UNICODE characters In XML.
+Author: Phumlani Mbabela
+https://www.linkedin.com/in/phumlani-mbabela-14772966</description>
+
+	<groupId>co.za.zwideheights</groupId>
+	<artifactId>websec</artifactId>
+	<packaging>jar</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+
+		<plugins>
+
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+			</plugin>
+
+		</plugins>
+
+	</build>
+
+</project>
